@@ -1,5 +1,8 @@
 <?php
 
+use App\Quote;
+use Gmsantos\Inspiring;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

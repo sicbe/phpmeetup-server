@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5eba86da256ddeb8084c32d3d10e18d3",
+    "content-hash": "30fb7b6e33e2a9172a3f3927727fe6d1",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -318,6 +318,56 @@
                 "trusted proxy"
             ],
             "time": "2017-06-15T17:19:42+00:00"
+        },
+        {
+            "name": "gmsantos/inspiring",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gmsantos/inspiring.git",
+                "reference": "49c47e2fa6fe6b26833cc1d29f72cb59186ba89d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gmsantos/inspiring/zipball/49c47e2fa6fe6b26833cc1d29f72cb59186ba89d",
+                "reference": "49c47e2fa6fe6b26833cc1d29f72cb59186ba89d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^6.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gmsantos\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "gmsantos",
+                    "email": "gabriel.ms1@hotmail.com"
+                }
+            ],
+            "description": "Alternative inspiring quotes for Laravel 5+",
+            "keywords": [
+                "console",
+                "laravel",
+                "package"
+            ],
+            "time": "2017-11-14T14:11:34+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
